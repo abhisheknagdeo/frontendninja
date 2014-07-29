@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Task 06 CSS</title>
+<link rel=StyleSheet href="external_style_sheet.css" type="text/css">
+</head>
+<body>
+<H2>Task 6 : CSS </H3>
+<hr>
+<p class="question">Q1. What are pseudo classes in CSS? Any example?</p>
+<p><b>Ans:</b></p>
+<p>
+CSS pseudo-classes are used to add special effects to some selectors.
+<h4>Syntax</h2>
+<p>The syntax of pseudo-classes:</p>
+<div>
+selector:pseudo-class {<br>&nbsp;&nbsp;&nbsp; property:value;<br>}</div>
+<p>CSS classes can also be used with pseudo-classes:</p>
+<div>
+selector.class:pseudo-class {<br>&nbsp;&nbsp;&nbsp; property:value;<br>}</div>
+<br>
+Example: 
+<a href="#"><b>Click Me</b></a>
+<h2>All CSS Pseudo Classes/Elements</h2>
+<table class="table">
+  <tr>
+    <th style="width:20%">Selector</th>
+    <th style="width:17%">Example</th>
+    <th>Example description</th>
+  </tr>
+  <tr>
+    <td><a href="#">:link</a></td>
+    <td class="notranslate">a:link</td>
+    <td>Selects all unvisited links</td>
+  </tr>
+	<tr>
+    <td><a href="#">:visited</a></td>
+    <td class="notranslate">a:visited</td>
+    <td>Selects all visited links</td>
+  </tr>
+	<tr>
+    <td><a href="#">:active</a></td>
+    <td class="notranslate">a:active</td>
+    <td>Selects the active link</td>
+  </tr>
+	<tr>
+    <td><a href="#">:hover</a></td>
+    <td class="notranslate">a:hover</td>
+    <td>Selects links on mouse over</td>
+  </tr>
+	<tr>
+    <td><a href="#">:focus</a></td>
+    <td class="notranslate">input:focus</td>
+    <td>Selects the input element which has focus</td>
+  </tr>
+	<tr>
+    <td><a href="#">::first-letter</a></td>
+    <td class="notranslate">p::first-letter</td>
+    <td>Selects the first letter of every &lt;p&gt; element</td>
+  </tr>
+	<tr>
+    <td><a href="#">::first-line</a></td>
+    <td class="notranslate">p::first-line</td>
+    <td>Selects the first line of every &lt;p&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href="#">:first-child</a></td>
+    <td class="notranslate">p:first-child</td>
+    <td>Selects every &lt;p&gt; elements that is the first child of its parent</td>
+  </tr>
+	<tr>
+    <td><a href="#">::before</a></td>
+    <td class="notranslate">p::before</td>
+    <td>Insert content before every &lt;p&gt; element</td>
+  </tr>
+	<tr>
+    <td><a href="#">::after</a></td>
+    <td class="notranslate">p::after</td>
+    <td>Insert content after every &lt;p&gt; element</td>
+  </tr>
+	<tr>
+    <td><a href="#">:lang(<i>language</i>)</a></td>
+    <td class="notranslate">p:lang(it)</td>
+    <td>Selects every &lt;p&gt; element with a lang attribute value starting 
+	with &quot;it&quot;</td>
+  </tr>
+</table>
+<hr>
+
+<p class="question">Q50. How do we make a comment inside the CSS file?</p>
+<p><b>Ans:</b></p>
+a:hover {<br><br>
+	/* Single line comment */<br><br>
+    color: black;<br><br>	
+	/* Multi-line <br>
+	comment */<br>
+}
+<hr>
+<p class="question">Q99. What is external Style Sheet? How to link?</p>
+<p><b>Ans:</b></p>
+&lt;link rel=StyleSheet href="external_style_sheet.css" type="text/css"&gt;
+<hr>
+</body>
+</html>
